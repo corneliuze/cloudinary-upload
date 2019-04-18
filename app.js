@@ -9,9 +9,9 @@ app.use(BodyParser.json());
 app.use(BodyParser.urlencoded({extended : true}));
 
 cloudinary.config({
-    cloud_name: 'connie19',
-    api_key: '159792258632524',
-    api_secret: 'KTHJySZQczjhgjCF1szYcoFuNp8'
+    cloud_name: 'xxxxxxx',
+    api_key: 'xxxxxxxxx',
+    api_secret: 'xxxxxxxxx'
 
  });
     
@@ -50,5 +50,5 @@ app.post('/images', upload, (req, res) =>{
 })
 
 app.listen(9000, () =>{
-    console.log('port started in', 9000);
+    console.log('ok, server is running');
 })
